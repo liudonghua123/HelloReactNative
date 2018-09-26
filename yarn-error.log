@@ -1,0 +1,33 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Liu.D.H\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react react-native -S
+
+PATH: 
+  C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Java\jdk1.8.0_152\bin;D:\apps\apache-maven-3.5.3\bin;C:\Users\Liu.D.H\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\cmd;C:\Users\Liu.D.H\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\share\git-tfs;D:\android\Android_SDK\tools;D:\android\Android_SDK\platform-tools;C:\Program Files\dotnet\;D:\android\decompile;D:\android\decompile\dex2jar-2.1-SNAPSHOT;C:\Program Files (x86)\GNU\GnuPG\pub;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer\;C:\Program Files\Sublime Text 3;D:\apps\Redis-x64-3.2.100;D:\apps\kotlinc\bin;D:\apps\MongoDB\Server\3.4\bin;D:\apps\bin;D:\apps\extra\bin;C:\Users\Liu.D.H\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\apps\oracle\instantclient_12_2;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\Liu.D.H\Miniconda3;C:\Users\Liu.D.H\Miniconda3\Scripts;C:\Program Files\Docker\Docker\Resources\bin;D:\apps\ffmpeg-4.0.2-win64-static\bin;D:\apps\libwebp-0.6.0-windows-x86\bin;C:\Program Files\ImageMagick-7.0.5-Q16;D:\apps\ImageMagick-7.0.4-2-portable-Q16-x86;C:\Program Files (x86)\MIT\Kerberos\bin;C:\ActiveTcl\bin;D:\apps\spring-roo-2.0.0.RC3\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\nodejs\;D:\apps\MediaInfo_CLI_18.08.1_Windows_i386;C:\Users\Liu.D.H\.windows-build-tools\python27\;C:\Users\Liu.D.H\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Liu.D.H\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\Liu.D.H\AppData\Roaming\npm\node_modules\.bin;C:\Users\Liu.D.H\.windows-build-tools\python27\;C:\Users\Liu.D.H\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Liu.D.H\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\Liu.D.H\AppData\Roaming\npm\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Users\Liu.D.H\Miniconda3\Library\mingw-w64\bin;C:\Users\Liu.D.H\Miniconda3\Library\usr\bin;C:\Users\Liu.D.H\Miniconda3\Library\bin;C:\Users\Liu.D.H\scoop\shims;C:\Users\Liu.D.H\AppData\Local\Programs\Python\Python36-32;C:\Users\Liu.D.H\AppData\Local\atom\bin;C:\Users\Liu.D.H\AppData\Local\Microsoft\WindowsApps;D:\apps\BIND9.10.6.x86;D:\apps\SysinternalsSuite;D:\apps\LLVM\bin;D:\apps\cmake\bin;D:\apps\tex\MiKTeX\miktex\\bin\x64\;C:\Users\Liu.D.H\AppData\Local\Programs\Python\Python36_64\;C:\Users\Liu.D.H\AppData\Local\Programs\Python\Python36_64\Scripts\;D:\apps\php-7.2.3-nts-Win32-VC15-x64;C:\msys32\mingw32\bin;C:\msys32\usr\bin;C:\Users\Liu.D.H\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\Liu.D.H\AppData\Roaming\npm
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/metro/-/metro-0.45.6.tgz: ENOSPC: no space left on device, open 'C:\Users\Liu.D.H\AppData\Local\Yarn\Cache\v1\npm-metro-0.45.6-b4d7bf5edc39c5f7d73a6bc4d940e03415aa919b\src\Server\symbolicate\util.js.flow'
+
+npm manifest: 
+  {
+    "name": "HelloReactNative",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

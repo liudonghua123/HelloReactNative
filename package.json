@@ -1,0 +1,22 @@
+{
+  "name": "HelloReactNative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "release": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
+    "watchman:watch-del-all": "watchman watch-del-all",
+    "install:re-install": "shx rm -rf node_modules && npm install",
+    "cache:reset-metro-bundler-cache": "shx rm -rf %TEMP%/metro-bundler-cache-*",
+    "cache:remove-haste-cache": "shx rm -rf %TEMP%/haste-map-react-native-packager-*",
+    "start:reset-cache": "npm start -- --reset-cache",
+    "fix_4968": "npm run watchman:watch-del-all && npm run install:re-install && npm run cache:reset-metro-bundler-cache && npm run cache:remove-haste-cache"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-native": "^0.57.1"
+  },
+  "devDependencies": {
+    "schedule": "^0.4.0"
+  }
+}
